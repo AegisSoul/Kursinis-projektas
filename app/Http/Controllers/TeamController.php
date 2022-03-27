@@ -10,7 +10,7 @@ class TeamController extends Controller
 
     public function __construct()
     {
-        $this -> middleware(['auth']);
+        $this -> middleware(['auth'])->except(['index']);
     }
     
     public function index(){
@@ -86,5 +86,11 @@ class TeamController extends Controller
         $team -> delete();
         
         return redirect('/teams');
+    }
+    public function search(){
+        $teams = Team::where('FirstName', 'LIKE', '%'.$_GET['query'].'%')
+        ->orWhere('Team', $_GET['query'])->get();
+
+        return view ('teams', compact('teams'));
     }
 }
