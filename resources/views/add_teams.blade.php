@@ -80,7 +80,7 @@
                 <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="Average" id="inline-average" type="decimal" placeholder="Average">
             </div>
         </div>
-
+      
         <div class="md:flex md:items-center">
             <div class="md:w-1/4 mx-16"></div>
             <div class="md:w-2/3">

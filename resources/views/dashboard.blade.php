@@ -1,15 +1,26 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                <x-jet-welcome />
-            </div>
+    <div id="dashboardBackground" class="dark:bg-gray-800">
+        <div class="flex justify-center items-center h-screen text-black dark:text-gray-300">
+            <a id="dashboardTitle" href="/teams" class="p-8 text-4xl font-black uppercase transition duration-150 ease-in-out hover:scale-125" type="button">Statistics of basketball players</a>
+
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
+    <script>
+        $(document).ready(function() {
+           
+                $("#dashboardBackground").css('background-image', 'url(/Images/KomanduIcon.png)')
+                $("#dashboardBackground").css('background-repeat', 'no-repeat')
+                $("#dashboardBackground").css('background-position', 'top')
+                $("#dashboardBackground").css('background-size', 'contain')
+               
+            
+                
+            
+       
+        });
+
+    </script>
 </x-app-layout>
