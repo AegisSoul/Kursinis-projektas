@@ -1,13 +1,13 @@
 require('./bootstrap');
 
 import Alpine from 'alpinejs';
+import { reduce } from 'lodash';
 
 window.Alpine = Alpine;
 
 Alpine.start();
 
 const backToTop = document.querySelector('#backToTop');
-
 
 backToTop.addEventListener('click', (e) => {
     e.preventDefault();
@@ -16,6 +16,4 @@ backToTop.addEventListener('click', (e) => {
         left: 0,
         behavior: 'smooth'
     });
-
-
 })

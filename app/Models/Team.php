@@ -9,11 +9,12 @@ class Team extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'FirstName',
-        'LastName',
-        'Team',
-        'Position',
-        'Height',
-        'Average'
+        'name',
+        'logo'
     ];
+
+    public function players()
+    {
+        return $this->hasMany(Player::class);
+    }
 }

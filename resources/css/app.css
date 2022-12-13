@@ -44,3 +44,17 @@
         text-shadow: 4px 4px black;
     }
 }
+
+#Table-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70vh;
+}
+
+#Lietkabelis-background,
+#Pienozvaigzdes-background,
+#Prienai-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 68vh;
+}

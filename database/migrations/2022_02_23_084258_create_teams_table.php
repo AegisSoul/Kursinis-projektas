@@ -15,12 +15,11 @@ return new class extends Migration
     {
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
-            $table->string('FirstName');
-            $table->string('LastName');
-            $table->string('Team');
-            $table->string('Position');
-            $table->double('Height');
-            $table->double('Average');
+            $table->string('name');
+            $table->string('logo');
+            $table->string('bg_logo')->default('');
+            $table->string('bg_color')->default('');
+            $table->string('color')->default('');
             $table->timestamps();
         });
     }

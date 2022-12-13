@@ -43,9 +43,17 @@
                     Team
                 </label>
             </div>
+            
             <div class="md:w-3/4">
-                <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="Team" id="inline-team" type="text" placeholder="Team" value={{ old('Team')}}>
+                <select name="Team" id="Team">
+                    @foreach ($teams as $team)
+                    <option value="{{$team->id}}">{{ucfirst($team->name)}}</option>
+                    @endforeach
+                </select>
             </div>
+            <!-- <div class="md:w-3/4">
+                <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="Team" id="inline-team" type="text" placeholder="Team" value={{ old('Team')}}>
+            </div> -->
         </div>
 
         <div class="md:flex md:items-center mb-6 mx-60">
@@ -80,7 +88,37 @@
                 <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="Average" id="inline-average" type="decimal" placeholder="Average">
             </div>
         </div>
-
+        <div class="md:flex md:items-center mb-6 mx-60">
+            <div class="md:w-1/4">
+                <label class="block text-black  md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-100" for="inline-minpoints">
+                    Minimum Points
+                </label>
+            </div>
+            <div class="md:w-3/4">
+                <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="MinPoints" id="inline-minpoints" type="decimal" placeholder="Minimum points">
+            </div>
+        </div>
+        <div class="md:flex md:items-center mb-6 mx-60">
+            <div class="md:w-1/4">
+                <label class="block text-black  md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-100" for="inline-maxpoints">
+                    Maximum Points
+                </label>
+            </div>
+            <div class="md:w-3/4">
+                <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="MaxPoints" id="inline-maxpoints" type="decimal" placeholder="Maximum points">
+            </div>
+        </div>
+        <div class="md:flex md:items-center mb-6 mx-60">
+            <div class="md:w-1/4">
+                <label class="block text-black  md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-100" for="inline-gamesplayed">
+                    Games Played
+                </label>
+            </div>
+            <div class="md:w-3/4">
+                <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="GamesPlayed" id="inline-gamesplayed" type="decimal" placeholder="Games Played">
+            </div>
+        </div>
+      
         <div class="md:flex md:items-center">
             <div class="md:w-1/4 mx-16"></div>
             <div class="md:w-2/3">

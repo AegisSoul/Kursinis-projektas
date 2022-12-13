@@ -23,10 +23,10 @@
 
     </head>
     <body class="font-sans antialiased dark:bg-gray-800">
-        <div class="min-h-screen">
-           
+        <div class="min-h-screen ">              
             <!-- Page Content -->
             <main>
+                
                 @yield('content')
             </main>
         </div>
