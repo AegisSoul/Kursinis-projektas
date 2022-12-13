@@ -18,6 +18,9 @@ class IsAdmin
     {
         if ($request->user()->role != 1) abort(403);
         return $next($request);
+<<<<<<< HEAD
        
+=======
+>>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
     }
 }

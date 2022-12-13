@@ -23,7 +23,11 @@
 
     </head>
     <body class="font-sans antialiased dark:bg-gray-800">
+<<<<<<< HEAD
         <div class="min-h-screen ">              
+=======
+        <div class="min-h-screen">              
+>>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
             <!-- Page Content -->
             <main>
                 

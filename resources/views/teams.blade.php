@@ -3,17 +3,30 @@
 @include('components.navbar')
 @section('content')
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
 
 <form action="/teams/search" method="get">
     <div class="flex pt-2 pl-2">
         <div>
             <div class="input-group relative flex items-stretch w-full mb-4">
+<<<<<<< HEAD
                 <input type="text" name="query" class="form-control relative min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-600 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-500 focus:bg-white focus:border-blue-300 focus:outline-none dark:text-gray-200 dark:focus:text-blue-300 dark:focus:bg-gray-500 dark:bg-gray-700" placeholder="Paieška" aria-label="Search" aria-describedby="button-addon3">
                 <button type="submit" class="btn px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-blue-300 dark:hover:text-gray-600" id="button-addon3">Ieškoti</button>
                 @if(Auth::user()->role == 1)
                 <a href="/teams/add" class="ml-2 btn px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-blue-300 dark:hover:text-gray-600" type="button">Add a player</a>
                 @endif
+=======
+                <input type="text" name="query" class="form-control relative min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-600 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-500 focus:bg-white focus:border-blue-300 focus:outline-none dark:text-gray-200 dark:focus:text-blue-300 dark:focus:bg-gray-500 dark:bg-gray-700" placeholder="Search" aria-label="Search" aria-describedby="button-addon3">
+                <button type="submit" class="btn px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-blue-300 dark:hover:text-gray-600" id="button-addon3">Search</button>
+                @if(Auth::user()->role == 1)
+                <a href="/teams/add" class="ml-2 btn px-6 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-blue-300 dark:hover:text-gray-600" type="button">Add a player</a>
+                @endif
+
+>>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
             </div>
             <a id="backToTop" class="fixed right-40 bottom-6 ml-2 btn px-6 py-2 border-2 bg-white opacity-75 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:bg-blue-600 hover:text-white hover:opacity-100 focus:outline-none focus:ring-0 transition duration-150 ease-in-out dark:bg-gray-700  dark:text-gray-200 dark:hover:bg-blue-300 dark:hover:text-gray-600 hover:cursor-pointer" type="button">Grįžti į viršų</a>
         </div>
@@ -102,6 +115,19 @@
 
 </div>
 
+<<<<<<< HEAD
+=======
+            <td class="py-4 px-6 text-sm font-medium">{{$team -> Average}} points</td>
+            <td class="py-4 px-6 text-sm font-medium text-right whitespace-nowrap">
+            @if(Auth::user()->role == 1)
+                <a class="text-blue-600 dark:text-blue-500 hover:underline hover:font-bold px-1" href="/teams/edit/{{$team -> id}}">Edit</a>
+                <a class="text-red-600 dark:text-red-500 hover:underline hover:font-bold" href="/teams/delete/ask/{{$team -> id}}">Delete</a>
+            @endif
+            </td>
+            
+        </tr>
+        @endforeach
+>>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
 
 
 @endsection
