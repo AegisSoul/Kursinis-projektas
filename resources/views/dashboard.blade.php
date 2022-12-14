@@ -1,6 +1,6 @@
 <x-app-layout>
 
-<<<<<<< HEAD
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
@@ -91,7 +91,7 @@
             </div>
         </div> --}}
     </div>
-<<<<<<< HEAD
+
     <div class='hidden'>
         <span class="cyan-500"></span>
         <span class="yellow-500"></span>
@@ -138,7 +138,6 @@
 
 
 
-=======
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ricostacruz.com/jquery.transit/jquery.transit.min.js"></script>
     <script>
@@ -156,5 +155,5 @@
         });
 
     </script>
->>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
+
 </x-app-layout>

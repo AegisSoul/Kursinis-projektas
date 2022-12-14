@@ -1,6 +1,6 @@
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100 dark:bg-slate-600">
     <!-- Primary Navigation Menu -->
-<<<<<<< HEAD
+
     <nav class="bg-white border-gray-200 px-2 sm:px-4 pt-3 pb-3 rounded dark:bg-gray-800 border-b-2 dark:border-gray-700">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
@@ -23,7 +23,7 @@
                         </form>
                     </li>
                 </ul>
-=======
+
     <div class="max-w-7xl mx-auto px-4 pt-3 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
@@ -158,7 +158,7 @@
                         <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
->>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
+
             </div>
         </div>
     </nav>

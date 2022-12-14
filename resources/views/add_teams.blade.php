@@ -88,7 +88,7 @@
                 <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="Average" id="inline-average" type="decimal" placeholder="Average">
             </div>
         </div>
-<<<<<<< HEAD
+
         <div class="md:flex md:items-center mb-6 mx-60">
             <div class="md:w-1/4">
                 <label class="block text-black  md:text-right mb-1 md:mb-0 pr-4 dark:text-gray-100" for="inline-minpoints">
@@ -119,8 +119,7 @@
                 <input class="input bg-gray-200 appearance-none border-2 border-black rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" name="GamesPlayed" id="inline-gamesplayed" type="decimal" placeholder="Games Played">
             </div>
         </div>
-=======
->>>>>>> f3af721f2dd6da963e1a65d5232bc1410affa2bf
+
       
         <div class="md:flex md:items-center">
             <div class="md:w-1/4 mx-16"></div>
