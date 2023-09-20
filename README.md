@@ -13,7 +13,8 @@
 
 A basic CRUD website that was made for a course project for college made using Laravel. It is meant to be a simple website where users can check the stats of basketball players from Lithuania's Basketball League.
 The main priority was simplistic yet modern design that users of all ages could find easy to use. 
-Functions: 
+Functions:
+- Users can register and login.
 - Users can choose a team (by clicking on a team's logo) where they are able to see the stats of all the players for the chosen team.
 Said stats include: Name, Lastname, Team, Height, Age, Highest points scored in a game, Lowest points scored in a game, Average points scored.
 - Users use the search bar to search for players by name.
