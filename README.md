@@ -16,7 +16,7 @@ The main priority was simplistic yet modern design that users of all ages could 
 Functions:
 - Users can register and login.
 - Users can choose a team (by clicking on a team's logo) where they are able to see the stats of all the players for the chosen team.
-Said stats include: Name, Lastname, Team, Height, Age, Highest points scored in a game, Lowest points scored in a game, Average points scored.
+Said stats include: Name, Lastname, Team, Height, Age, Position in which they play, Highest points scored in a game, Lowest points scored in a game, Average points scored.
 - Users use the search bar to search for players by name.
 - Users can edit their profile where they can change their email, password or delete their account.
 - Admins can ADD players into the list.
