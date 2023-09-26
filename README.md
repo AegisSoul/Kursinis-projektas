@@ -51,3 +51,15 @@ Funkcijos:
 Ankstesnė šio projekto versija buvo sukurta su C# pagal dėstytojo nurodymus. Kitame semestre, sukurtas projektas turėjo buti perkeltas į svetainę naudojant bet kokią pasirinktą technologiją. Nusprendžiau naudotis Laravel karkasų, kurį pasiūlė ir mane išmokė mentorius. Tai yra dabartinė projekto versija. <br>
 <a href="https://github.com/AegisSoul/Krepsininku-sistema-Kursinis-projektas-Csharp-">Senesnė projekto versija kuri buvo padaryta su C# galima rasti čia:</a>
 
+<br>
+<br>
+Bellow are a couple of images of the project/Žemiau yra keleta projekto nuotraukų
+<br>
+<img width="1230" alt="Screenshot_7" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/38e477d3-3aae-4f57-ac9c-8a65b8ffad1a">
+<img width="1246" alt="Screenshot_6" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/87592f71-9ef8-43f1-9447-c62887f58671">
+<img width="1245" alt="Screenshot_5" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/16f90838-9506-4a9b-973e-e794debfb60c">
+<img width="1244" alt="Screenshot_4" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/4ad1bcfd-21b6-42de-9779-9825716e7e92">
+<img width="1243" alt="Screenshot_3" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/3101c4ec-d158-45f1-a043-bb5eab3c521d">
+<img width="1239" alt="Screenshot_2" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/c0543ba5-6e96-4bd7-8837-50b37d2abff9">
+<img width="1246" alt="Screenshot_1" src="https://github.com/AegisSoul/Kursinis-projektas-Laravel/assets/97402640/dc0b2840-06ef-4940-8c99-32af707195e1">
+
