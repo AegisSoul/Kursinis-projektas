@@ -53,7 +53,7 @@ Ankstesnė šio projekto versija buvo sukurta su C# pagal dėstytojo nurodymus. 
 
 <br>
 <br>
-Bellow are a couple of images of the project/Žemiau yra keleta projekto nuotraukų
+Bellow are a couple of project images/Žemiau pateikta keleta projekto nuotraukų
 <br>
 <br>
 <br>
