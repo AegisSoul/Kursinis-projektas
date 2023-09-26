@@ -12,7 +12,7 @@ EN
 
 ---It is a continuation of the same project that was made a year prior in C#---
  
-A basic website with CRUD functions that was made for a course project for college made using Laravel. It is meant to be a website where users can check the stats of basketball players from Lithuania's Basketball League.
+A basic website with CRUD functions that was made for a course project for college by using Laravel. It is meant to be a website where users can check the stats of basketball players from Lithuania's Basketball League.
 The main priority was simplistic yet modern design that users of all ages could find easy to use. 
 Functions:
 - Users can register and login.
