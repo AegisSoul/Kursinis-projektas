@@ -25,8 +25,9 @@ Said stats include: Name, Lastname, Team, Height, Age, Position in which they pl
 - Admins can EDIT the stats of a player.
 
   
-The prior version of this project was made using C# as requested by the lecturer. For the next semester, the project had to be moved to the web using any of chosen technologies, so I opted for Laravel, which was suggested and taught to me by my mentor. This is the current version of project.
-The older version made with C# can be found in a different repository which is public.
+The prior version of this project was made using C# as requested by the lecturer. For the next semester, the project had to be moved to the web using any of chosen technologies, so I opted for Laravel, which was suggested and taught to me by my mentor. This is the current version of project. <br>
+<a href="https://github.com/AegisSoul/Krepsininku-sistema-Kursinis-projektas-Csharp-">The older version of the project made with C# can be found here:<a/>
+
 
 LT
 ## Apie Šį Projektą
@@ -45,5 +46,6 @@ Funkcijos:
 - Administratorius gali PANAIKINTI žaidėjus esančius sąraše.
 - Administratorius gali REDAGUOTI sąraše esančių žaidėjų statistiką.
 
-Ankstesnė šio projekto versija buvo sukurta su C# pagal dėstytojo nurodymus. Kitame semestre, sukurtas projektas turėjo buti perkeltas į svetainę naudojant bet kokią pasirinktą technologiją. Nusprendžiau naudotis Laravel karkasų, kurį pasiūlė ir mane išmokė mentorius. Tai yra dabartinė projekto versija.
-Senesnė projekto versija kuri buvo padaryta su C# galima atrasti, kitoje repozitorijoje, kuri yra vieša.
+Ankstesnė šio projekto versija buvo sukurta su C# pagal dėstytojo nurodymus. Kitame semestre, sukurtas projektas turėjo buti perkeltas į svetainę naudojant bet kokią pasirinktą technologiją. Nusprendžiau naudotis Laravel karkasų, kurį pasiūlė ir mane išmokė mentorius. Tai yra dabartinė projekto versija. <br>
+<a href="https://github.com/AegisSoul/Krepsininku-sistema-Kursinis-projektas-Csharp-">Senesnė projekto versija kuri buvo padaryta su C# galima rasti čia:</a>
+
