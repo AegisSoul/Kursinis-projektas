@@ -12,7 +12,7 @@
 ----It is a continuation of the same project that was made a year prior in C#---
 
 The prior version of this project was made using C# as requested by the lecturer. For the next semester, the project had to be moved to the web using any of chosen technologies, so I opted for Laravel, which was suggested and taught to me by my mentor. <br>
-A basic CRUD website that was made for a course project for college made using Laravel. It is meant to be a simple website where users can check the stats of basketball players from Lithuania's Basketball League.
+A basic website with CRUD functions that was made for a course project for college made using Laravel. It is meant to be a simple website where users can check the stats of basketball players from Lithuania's Basketball League.
 The main priority was simplistic yet modern design that users of all ages could find easy to use. 
 Functions:
 - Users can register and login.
