@@ -23,6 +23,7 @@ Said stats include: Name, Lastname, Team, Height, Age, Position in which they pl
 - Admins can ADD players into the list.
 - Admins can REMOVE players from the list.
 - Admins can EDIT the stats of a player.
+- Adapted towards dark/light browser mode users
 
   
 The prior version of this project was made using C# as requested by the lecturer. For the next semester, the project had to be moved to the web using any of chosen technologies, so I opted for Laravel, which was suggested and taught to me by my mentor. This is the current version of project. <br>
@@ -45,6 +46,7 @@ Funkcijos:
 - Administratorius gali PRIDĖTI naujus žaidėjus prie sąrašo.
 - Administratorius gali PANAIKINTI žaidėjus esančius sąraše.
 - Administratorius gali REDAGUOTI sąraše esančių žaidėjų statistiką.
+- Pritaikyta tamsos/šviesos naršyklės režimų naudotojams
 
 Ankstesnė šio projekto versija buvo sukurta su C# pagal dėstytojo nurodymus. Kitame semestre, sukurtas projektas turėjo buti perkeltas į svetainę naudojant bet kokią pasirinktą technologiją. Nusprendžiau naudotis Laravel karkasų, kurį pasiūlė ir mane išmokė mentorius. Tai yra dabartinė projekto versija. <br>
 <a href="https://github.com/AegisSoul/Krepsininku-sistema-Kursinis-projektas-Csharp-">Senesnė projekto versija kuri buvo padaryta su C# galima rasti čia:</a>
